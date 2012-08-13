@@ -11,7 +11,7 @@ gem install pry bundler --no-ri --no-rdoc
 # dotvim install
 ln -sfn ~/dotfiles/dotvim ~/.vim
 ln -sfn ~/dotfiles/dotvim/vimrc ~/.vimrc
-cd ~.vim; make install; cd -
+cd ~/.vim; make install; cd -
 
 # Run the install (I'd like to pull this out of rake, eventually)
 rake install
